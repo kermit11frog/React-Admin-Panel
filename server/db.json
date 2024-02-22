@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "kermit11frog",
+      "email": "aryan11sf@gmail.com",
+      "firstname": "Aryan",
+      "lastname": "Salhi"
+    }
+  ],
+  "products": [
+    {
+      "name": "ps4",
+      "description": "a ps4 for good child",
+      "price": "449",
+      "id": "1"
+    },
+    {
+      "id": "aae0",
+      "name": "Monitor",
+      "description": "a clean monitor ",
+      "price": "125"
+    },
+    {
+      "name": "Doll",
+      "description": "a beautifull doll",
+      "price": "12",
+      "id": "75b5"
+    },
+    {
+      "id": "01eb",
+      "name": "Xbox SeriesX",
+      "description": "a xbox for you",
+      "price": "450"
+    }
+  ]
+}

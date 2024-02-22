@@ -1,0 +1,9 @@
+.card_box {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.lastProducts h2 {
+    margin: 20px 0;
+}

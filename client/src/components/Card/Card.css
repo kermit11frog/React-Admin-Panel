@@ -1,0 +1,62 @@
+.card {
+    max-width: 350px;
+    background-color: var(--color-white);
+    border-radius: var(--card-border-radius);
+    padding: var(--card-padding);
+    flex: 1;
+}
+
+.card__icon {
+    border-radius: 50%;
+    background-color: var(--icon-color);
+    color: white;
+    width: 45px;
+    display: block;
+    height: 45px;
+}
+
+.card__content {
+    justify-content: space-between
+}
+
+.card__content .text {
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card__value {
+    color: var(--color-dark);
+    font-weight: bold;
+}
+
+.card__title {
+    font-weight: bold;;
+}
+
+.card__percent {
+    display: inline-block;
+    position: relative;
+}
+
+.card__percent svg circle {
+    stroke: var(--color-primary);
+    stroke-width: 13;
+    stroke-linecap: round;
+    stroke-dasharray: 233;
+    stroke-dashoffset: calc(((100 - var(--percent)) / 100) * 233px);
+    fill: transparent;
+}
+
+.card__percent span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--color-dark);
+    font-size: 1.1rem;
+}
+
+.card__date {
+    color: var(--color-info-dark);
+    font-size: 0.8rem;
+}
