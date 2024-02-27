@@ -6,4 +6,6 @@
 
 .lastProducts h2 {
     margin: 20px 0;
+    font-weight: bold;
+    color: var(--color-dark)
 }

@@ -66,5 +66,7 @@
     position: absolute;
     bottom: 0;
     left: 0;
+    width: 100%;
+    padding-left: calc(1.2rem + 20px) !important;
 }
 /* end slider content */

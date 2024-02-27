@@ -1,0 +1,42 @@
+.tableWrapper {
+    max-height: 250px;
+    overflow: auto;
+    scrollbar-width: none;
+    border-radius: 10px;
+}
+
+.tableWrapper__table {
+    background: white;
+    width: 100%;
+    border-collapse: collapse;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+.tableWrapper__table thead {
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.tableWrapper__table thead tr {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+.tableWrapper__table th {
+    text-align: start;
+}
+
+table tbody tr {
+    border-bottom: 1px solid var(--color-light);
+}
+
+.tableWrapper__table tbody tr:last-child {
+    border: none;
+}
+
+.tableWrapper__table tr th,
+.tableWrapper__table tr td {
+    padding: 15px;
+}

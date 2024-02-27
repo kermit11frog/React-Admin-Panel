@@ -1,0 +1,16 @@
+.content {
+    flex-direction: column;
+}
+
+.errorTitle {
+    font-size: 4rem;
+    color: var(--color-dark);
+    font-weight: bold;
+}
+
+.errorMessage {
+    max-width: 400px;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--color-dark-variant);
+}
