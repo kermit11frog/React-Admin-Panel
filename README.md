@@ -1,6 +1,6 @@
 # React-Admin-Panel
 #### create/edit/delete/show products in admin panel
-![picture](https://i.postimg.cc/J483hTQ3/picture.png)
+[![react-admin.png](https://i.postimg.cc/8P4Tf9Vd/react-admin.png)](https://postimg.cc/nCXy6drM)
 
 # To use, do the following
 
